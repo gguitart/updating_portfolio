@@ -7,56 +7,116 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>GG</title>
 </head>
 
 <body>
+
     <div class="contianer" id="header">
         <div class="row">
             <div class="col-12">
                 <h1>GG Guitart</h1>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                <h2>About Me</h2>
+            <div>
             </div>
-            <div class="col-3">
-                <h2>Selected Work</h2>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis mauris est. Fusce sodales efficitur diam nec rutrum. Suspendisse diam nunc, tincidunt at egestas nec, euismod posuere turpis. Curabitur et vulputate nisi, condimentum rhoncus tortor. Vestibulum ac lacus dolor. Vestibulum sed commodo nibh. Suspendisse nec est placerat, sodales odio blandit, porttitor magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque molestie ipsum at semper dapibus.
-            </div>
-            <div class="col-4">
-                    <img src="/assets/images/dog.jpg" alt="dog" width="500" height="333">
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <div id="content">
+                <div class="row">
+                    <div class="col-2" onclick="aboutme()" id="about-me">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="col-3" onclick="selectedWorks()">
+                        <h2>Selected Work</h2>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="row" id="about-me-area">
+                    <div class="col-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis mauris est. Fusce sodales
+                        efficitur
+                        diam nec rutrum. Suspendisse diam nunc, tincidunt at egestas nec, euismod posuere turpis.
+                        Curabitur
+                        et
+                        vulputate nisi, condimentum rhoncus tortor. Vestibulum ac lacus dolor. Vestibulum sed commodo
+                        nibh.
+                        Suspendisse nec est placerat, sodales odio blandit, porttitor magna. Interdum et malesuada fames
+                        ac
+                        ante
+                        ipsum primis in faucibus. Pellentesque molestie ipsum at semper dapibus.
+                    </div>
+                    <div class="col-7">
+                        <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" class="circle responsive-img"
+                            alt="dog" width="300px">
+                    </div>
+                </div>
+                <br>
+                <br>
+           
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="selectedWorks">
+                <h2>Projects</h2>
+                <div class="row" >
+                    
+                    <br>
+                    <div class="col-4">
 
+                        <a href="/updating_portfolio/portfolio -- GG/proj1/index.html"><img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px"></a>
+                        Project 1
+                    </div>
+                    <div class="col-4" onclick="hideContent()">
 
-        <div class="row">
-            <div class="col-4">
-                Project 1
+                       <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px">
+                        Project 2
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-4" onclick="hideContent()">
+
+                        <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px">
+                        Project 3
+                    </div>
+                    <div class="col-4" onclick="hideContent()">
+
+                        <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px">
+                        Project 4
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                Project 2
-            </div>
+        </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="footer">
+            Made by GG
+        </div>
+    </div>
+
+    <script async src="//jsfiddle.net/kimmobrunfeldt/mxjj6jom/embed/"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
 
 </body>
 

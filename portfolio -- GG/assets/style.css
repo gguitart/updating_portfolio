@@ -5,4 +5,21 @@
 }
 h2 {
     font-size: 20px;
+ 
 }
+body {
+    font-family: Raleway;
+}
+
+.container-fluid {
+    content: center;
+    border: solid;
+}
+
+#container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+/* claass called invisible, property of display none, add class and remove class */
