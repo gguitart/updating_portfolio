@@ -22,4 +22,10 @@ body {
     height: 200px;
   }
 
+  .sharksupport-image {
+      padding-bottom: 10%;
+      padding-top: 20%;
+
+  }
+
 /* claass called invisible, property of display none, add class and remove class */

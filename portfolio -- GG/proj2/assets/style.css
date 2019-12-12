@@ -25,6 +25,7 @@ h5 {
     width: 90%;
     margin-top: 37%;
 }
+/* header styling */
 #header-name {
     font-size: 60px;
     font-weight: bold;
@@ -38,16 +39,18 @@ h5 {
     position: fixed;
 
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  /* end of header styling */
 
   .content {
     padding: 16px;
   }
   
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+ 
 .vr {
     border:         none;
     border-left:    1px solid hsla(200, 10%, 50%,100);
@@ -129,13 +132,13 @@ box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     cursor: none;
 --animation-speed: 5s;
 }
+/* Footer CS code */
 .footer {
     margin-top: 3%;
     padding: 40px;
-    background-color: #EEEEEE
+    background-color: #FAFAFA
 }
 .fa {
-    /* padding: 20px; */
     padding-top: 10px;
     font-size: 30px;
     width: 50px;
