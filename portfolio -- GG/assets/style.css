@@ -11,9 +11,21 @@ body {
     font-family: Raleway;
 }
 
+#selectedWorks {
+    margin-top: 20%;
+}
+
 .container-fluid {
     content: center;
     border: solid;
+}
+#about-me-area {
+    height: 500px;
+}
+
+#mypicture {
+    border-radius: 50%;
+    height: 300px
 }
 
 #container {
@@ -27,5 +39,85 @@ body {
       padding-top: 20%;
 
   }
-
+.image-voter-engagement {
+    padding-left: 17%;
+}
+#text-voter-engagement {
+    padding-left: 17%;
+}
 /* claass called invisible, property of display none, add class and remove class */
+
+
+
+.footer {
+    margin-top: 3%;
+    padding: 40px;
+    background-color: #FAFAFA
+}
+.fa {
+    padding-top: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  #contact-buttons {
+      margin-left: 40%;
+  }
+  .lets-get-in-touch {
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+
+#emoji {
+    width: 30px;
+}
+
+#by-me {
+    padding-top: 2%;
+}
+
+#emoji-section {
+     margin-left: 40%;
+     margin-top: 0%;
+}
+
+#reach-out {
+    padding-top: 15%;
+}
+
+#giving-email {
+    padding-top: 7%;
+}
+
+#live-laugh-love-feedback {
+    padding-top : 8%;
+}
+
+.contact-me {
+    padding-top: 10%;
+}
+
+#github {
+    width: 82%;
+    padding-left: 5%;
+    padding-top:4%
+}

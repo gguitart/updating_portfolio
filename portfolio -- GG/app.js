@@ -17,6 +17,8 @@ function selectedWorks() {
         'slow');
 };
 
+
+
 function hideContent() {
     $("#content").hide();
 };

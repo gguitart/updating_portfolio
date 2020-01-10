@@ -19,22 +19,30 @@
 <body>
     <!-- Header code -->
     <div class="row">
-        <div class="col-sm" id="header-name">
-            GG
-        </div>
+        <a href="../index.html" class="nav-link">
+            <div class="col-sm" id="header-name">
+                GG
+            </div>
+        </a>
         <div id="header-list">
             <div class="row">
-                <div class="col">
-                    home
-                </div>
+                <a href="../index.html" class="nav-link">
+                    <div class="col">
+                        home
+                    </div>
+                </a>
                 <div class="vr"></div>
-                <div class="col">
-                    about
-                </div>
+                <a href="../index.html#about-me-area" class="nav-link">
+                    <div class="col">
+                        about
+                    </div>
+                </a>
                 <div class="vr"></div>
-                <div class="col" id="projectsPoint">
-                    projects
-                </div>
+                <a href="../index.html#about-me" class="nav-link">
+                    <div class="col" id="projectsPoint">
+                        projects
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -141,12 +149,16 @@
     <footer class="footer">
 
         <div class="row" id="contact-buttons">
-            <p class="lets-get-in-touch">Let's get in touch.</p>
-            <a href="https://www.linkedin.com/in/gerta-guitart-891423135/" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-google"></a>
+            <p class="lets-get-in-touch">
+                <div class="text-in-touch">Let's get in touch</div>
+            </p>
         </div>
+        <a href="../index.html#contact-me">
+        <div  id="arrow">
+            <span style='font-size:50px;'>&#8680;</span>
+        </div>
+    </a>
     </footer>
-    </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

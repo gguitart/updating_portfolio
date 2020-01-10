@@ -1,0 +1,267 @@
+.container {width: 50%;
+    margin-left: 25%;}
+
+
+
+    #solution-section {
+        width: 100%;
+        padding-top: 28%;
+        padding-right: 35%;
+    }
+    .list-text {
+        padding-top: 17%;
+        border: solid;
+        border-radius: 50%;
+        height: 340px;
+        width: 340px;
+        padding-left: 7%;
+        padding-right: 9%;
+    font-family: 'Raleway';
+    margin-top:5%;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    }
+
+
+    /* header styling */
+#header-name {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 5%;
+    font-family: 'Raleway';
+    position: fixed;
+} 
+#header-list {
+    margin-left: 78%;
+    padding-top: 3%;
+    position: fixed;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .vr {
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    padding-top:3px;
+    margin-top:2%;
+    height:         15px;
+    width:          1px; 
+}
+  /* end of header styling */
+
+/* styling for title */
+
+h2 {
+    font-size: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+/* End of styling for title */
+
+/* Document width settings */
+.container{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 3%;
+}
+body {
+    font-family: 'Raleway';
+}
+/* End of document width settings */
+
+/* code styling problem statment */
+#solutionBody {
+    padding-left: 10%;
+}
+
+#problemTitle {
+    font-size: 25px;
+}
+
+.problemIntro {
+    padding-left: 10%;
+}
+/* end of code styling problem statement */
+
+/* Code for skill circle */
+
+#skillsTitle{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+    padding-right: 4%;
+    padding-bottom: 3%
+}
+
+.circleList {
+    border: solid;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);   
+    margin-left: 30%;
+}
+
+.circleListtext {
+    padding-left: 25%;
+    padding-top: 15%;
+}
+
+/* End of code for skill circle */
+
+/* Footer CSS code */
+.footer {
+    margin-top: 3%;
+    padding: 40px;
+    background-color: #FAFAFA
+}
+.fa {
+    padding-top: 10px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  #contact-buttons {
+      margin-left: 40%;
+  }
+  .lets-get-in-touch {
+    font-family: 'Raleway';
+    font-size: 20px;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+
+  /* End of Footer CSS code */
+
+/* Image styling */
+  .stakeholder-image {
+      width: 80%;
+      margin-left: 10%;
+  }
+  .persona-exploration {
+      width: 80%;
+      margin-left: 10%;
+  }
+  .touchpoints-exploration {
+    width: 75%;
+margin-left:16%;
+  }
+  .journey-exploration {
+    width: 75%;
+    margin-left: 16%;
+  }
+
+  .brainstorming {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .brochures {
+      width: 80%;
+  }
+
+  .brochures-poster {
+      width: 90%;
+  }
+
+  .library-picture {
+width: 75%;
+margin-left: 16%;
+  }
+
+  /* end of image styling */
+
+  #processTitle {
+      font-size: 25px;
+  }
+
+  .brainstorming-title{
+      font-size: 20px;
+  }
+
+  .usertesting-title {
+    font-size: 20px;
+
+  }
+
+  .outcome-title {
+      font-size: 20px
+  }
+
+  #solutionTitle {
+    font-size: 25px;
+
+  }
+
+  /* Brainstorming styling */
+
+  #brainstorming-written-content { 
+      margin-left: 5%;
+      width: 90%;
+  }
+
+
+  a.nav-link:link
+  {
+     color: black;
+     text-decoration: none;
+  }
+  a.nav-link:visited
+  {
+     color: black;
+     text-decoration: none;
+  }
+  a.nav-link:hover
+  {
+     color: grey;
+     text-decoration: none;
+  }
+  a.nav-link:active
+  {
+     color: black;
+     text-decoration: none;
+  }
+
+
+  .text-in-touch {
+    text-align: center;
+font-size: 18px;
+font-family: 'Raleway';
+}
+
+span {
+    content: "\21E8";
+  }
+#arrow:hover {
+    opacity: 10%;
+    color: black;
+}
+
+  #arrow {
+      margin-left: 45.5%;
+      padding-top: 0%;
+      padding-left: 0%;
+      color: black;
+      text-decoration: none;
+  }

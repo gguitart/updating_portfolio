@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>GG</title>
 </head>
@@ -43,22 +46,14 @@
                         education and the role and impact technology can bring to students both inside and outside the
                         classroom. I studied Manufacturing and Design Engineering at Northwestern University, and
                         recently completed a Coding Certificate from Northwestern aswell. I’m looking for opportunities
-                        in UX/UI, development, and product management. Check out my work!
+                        in product, development, and user experience. Check out my work!
                     </div>
-                    <div class="col-7">
-                        <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" class="circle responsive-img"
-                            alt="dog" width="300px">
+                    <div class="col-5">
+                        <img src="./assets/images/mainpicture.png" id="mypicture" alt="dog">
+
                     </div>
                 </div>
-                <br>
-                <br>
 
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
                 <div id="selectedWorks">
                     <h2>Projects</h2>
                     <div class="row">
@@ -66,11 +61,12 @@
                         <br>
                         <div class="col-4">
                             <a href="./proj1/index.html">
-                                <img class="sharksupport-image" src="./proj1/assets/Screen Shot 2019-11-25 at 6.10.17 PM.png" width="300px">
+                                <img class="sharksupport-image"
+                                    src="./proj1/assets/Screen Shot 2019-11-25 at 6.10.17 PM.png" width="300px">
                             </a>
                             Shark Support
                         </div>
-                        <div class="col-4" onclick="hideContent()">
+                        <div class="col-4">
                             <a href="./proj2/index.html">
                                 <img src="./proj2/assets/Screen Shot 2019-11-27 at 11.21.56 AM.png" width="300px">
                             </a>
@@ -80,35 +76,59 @@
                     <br>
                     <br>
                     <div class="row">
-                        <div class="col-4" onclick="hideContent()">
-
-                            <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px">
-                            Project 3
+                        <div class="image-voter-engagement">
+<a href="./proj3/index.html">
+                            <img src="assets/images/library.png" width="300px">
+</a>
                         </div>
-                        <div class="col-4" onclick="hideContent()">
 
-                            <img src="assets/images/Screen Shot 2019-10-06 at 7.14.20 PM.png" width="300px">
-                            Project 4
-                        </div>
+
+                    </div>
+                    <div class="row" id="text-voter-engagement">
+                        Voter Engagement
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
+        </div>
+
+        <div class="contact-me" id="contact-me">
+            <h2>Contact me!</h2>
+            <div class="row">
+
+                <div class="col-5">
+                    <img src="./assets/images/dog.png" id="mypicture" alt="dog">
+
+                </div>
+                <div class="col-3">
+
+                    <div id="reach-out">
+                        Reach out to me if you have any questions, comments, or just want to chat.
+                    </div>
+                    <div id="giving-email">
+                        You can reach me at gertaguitart2019@u.northwestern.edu
+                    </div>
+                    <div id="live-laugh-love-feedback">
+                        I love feedback!</div>
+                </div>
+            </div>
+
         </div>
     </div>
-    <div class="container-fluid">
-        <div class="footer">
-            Made by GG
+
+
+    <footer class="footer">
+
+        <div class="row" id="contact-buttons">
+            <p class="lets-get-in-touch"><img src="./assets/images/emoji.png" id="emoji">
+                by me :)</p>
+            <a href="https://www.linkedin.com/in/gerta-guitart-891423135/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/gguitart"><img src="./assets/images/github.png" id="github"></a>
+
         </div>
-    </div>
+
+
+    </footer>
 
     <script async src="//jsfiddle.net/kimmobrunfeldt/mxjj6jom/embed/"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
