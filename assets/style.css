@@ -11,9 +11,8 @@ body {
     font-family: Raleway;
 }
 
-#selectedWorks {
-    margin-top: 20%;
-}
+
+
 
 .container-fluid {
     content: center;
@@ -27,16 +26,10 @@ body {
     border-radius: 50%;
     height: 300px
 }
-/* 
-#container {
-    margin: 20px;
-    /* width: 200px; */
-    /* width: 10%;
-    height: 200px;
-  } */ 
+
 
   .sharksupport-image {
-      padding-bottom: 10%;
+     
       padding-top: 20%;
 
   }
@@ -109,10 +102,7 @@ body {
     padding-top : 8%;
 }
 
-.contact-me {
-    /* padding-top: 10%; */
-    
-}
+
 
 #github {
     width: 82%;
@@ -129,6 +119,38 @@ body {
     margin-left: 30%;
     
 }
+.shark-support-text {
+    visibility: hidden;
+}
+
+.shark-support-wrap:hover .shark-support-text{
+visibility: visible;
+}
+.shark-support-wrap:hover {
+    opacity: 0.5;
+}
+
+.all-about-eve-text {
+    visibility: hidden;
+}
+
+.all-about-eve-wrap:hover .all-about-eve-text{
+visibility: visible;
+}
+.all-about-eve-wrap:hover {
+    opacity: 0.5;
+}
+
+.voter-engagement-text {
+    visibility: hidden;
+}
+
+.voter-engagement-wrap:hover .voter-engagement-text{
+visibility: visible;
+}
+.voter-engagement-wrap:hover {
+    opacity: 0.5;
+}
 
 @media only screen and (max-width: 3000px) {
     #header {
@@ -143,7 +165,7 @@ body {
     }
     #selectedWorks {
         margin-left: 30%;
-        width: 40%;
+        width: 50%;
     }
     #contact-me-text {
         margin-left: 30%;
