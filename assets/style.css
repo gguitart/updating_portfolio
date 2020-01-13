@@ -1,6 +1,6 @@
 
 #header {
-    margin-left: 30%;
+    /* margin-left: 30%; */
     margin-top: 5%;
 }
 h2 {
@@ -27,24 +27,21 @@ body {
     border-radius: 50%;
     height: 300px
 }
-
+/* 
 #container {
     margin: 20px;
-    width: 200px;
+    /* width: 200px; */
+    /* width: 10%;
     height: 200px;
-  }
+  } */ 
 
   .sharksupport-image {
       padding-bottom: 10%;
       padding-top: 20%;
 
   }
-.image-voter-engagement {
-    padding-left: 17%;
-}
-#text-voter-engagement {
-    padding-left: 17%;
-}
+
+
 /* claass called invisible, property of display none, add class and remove class */
 
 
@@ -113,7 +110,8 @@ body {
 }
 
 .contact-me {
-    padding-top: 10%;
+    /* padding-top: 10%; */
+    
 }
 
 #github {
@@ -121,3 +119,75 @@ body {
     padding-left: 5%;
     padding-top:4%
 }
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+#contact-me-title {
+    margin-left: 30%;
+    
+}
+
+@media only screen and (max-width: 3000px) {
+    #header {
+        margin-left: 30%;
+        width: 40%;
+    }
+    #about-me-area {
+        margin-left: 30%;
+    }
+    #about-me-area-words {
+        width: 30%;
+    }
+    #selectedWorks {
+        margin-left: 30%;
+        width: 40%;
+    }
+    #contact-me-text {
+        margin-left: 30%;
+        width: 20%;
+        /* text-align: center; */
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    #about-me-area {
+        margin-left: 23%;
+        width: 80%;
+
+    }
+    #about-me-area-words {
+        width: 40%;
+    }
+    .footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #about-me-area-words {
+        width: 90%;
+    }
+    #contact-me-text {
+        width:90%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #selectedWorks {
+        margin: 5%;
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+  
+
+
