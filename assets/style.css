@@ -117,6 +117,7 @@ body {
 
 #contact-me-title {
     margin-left: 30%;
+    padding-top: 15%;
     
 }
 .shark-support-text {
@@ -149,6 +150,20 @@ visibility: visible;
 visibility: visible;
 }
 .voter-engagement-wrap:hover {
+    opacity: 0.5;
+}
+
+.toy-design-text {
+    visibility: hidden;
+}
+.toy-design-wrap {
+    padding-left: 3%;
+}
+
+.toy-design-wrap:hover .toy-design-text{
+visibility: visible;
+}
+.toy-design-wrap:hover {
     opacity: 0.5;
 }
 
