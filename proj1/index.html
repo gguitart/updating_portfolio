@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -48,29 +50,88 @@
     </div>
     <!-- end of header code -->
     <div class="container" id="header">
-        <h2>Shark Carrier</h2>
-        <hr>
-        </hr>
-        <div class="row">
-            <div class="col-sm">
-                <div id="problemTitle">
-                    Problem:
+        <div id="intro">
+            <div class="row" id="">
+                <div class="col-sm">
+                    <img src="./assets/sheddaquarium.png" width=30px>
                 </div>
-                <div id="solutionBody">
-                    Shark caretakers at Shedd Aquarium in Chicago were experiencing pain while performing medical
-                    procedures on sharks. After careful observations we identified a progression of positions as
-                    depicted below.
+                <div class="col-sm" id="solutionBody">
+                    <h5> Overview</h5>
+                    The Shark Carrier was in response to shark caretakers at Shedd Aquarium in Chicago experiencing pain
+                    while performing medical
+                    procedures on sharks. The device seeks to support the weight of the shark while not impeding on the
+                    procedure.
                 </div>
+            </div>
 
+            <div class="row">
+                <div class="col-sm">
+                    <h5>Context</h5>
+                    Senior Capstone
+                </div>
+                <div class="col-sm">
+                    <h5>Skills</h5>
+
+                    <li>Observation</li>
+                    <li>Prototyping</li>
+                    <li>Design Research</li>
+                    <li>User Research</li>
+                    <li>CAD Modeling</li>
+
+
+                </div>
             </div>
         </div>
-        <div class="row">
-            <img src="./assets/Screen Shot 2019-11-25 at 5.16.41 PM.png">
+        <hr>
+
+        <div id="research-title">
+            <h4 data-aos="flip-up" data-aos-delay="30000" data-aos-duration="30000">Research</h4>
         </div>
+
+        <!-- <div class="row">
+            <h5>Problem</h5>
+            Shark caretakers at Shedd Aquarium in Chicago were experiencing pain while performing medical
+            procedures on sharks. After careful observations we identified a progression of positions as
+            depicted below.
+        </div> -->
+
+        <div class="row" id="user-observation-area">
+            <div class="col-sm">
+                <h5>User Observation & Interviews</h5>
+            </div>
+            <div class="col-sm" id="user-observation-list">
+                <li data-aos="fade-left" data-aos-delay="100">
+                    Over 3 hours of user observation.
+                </li>
+                <li data-aos="fade-left" data-aos-delay="400">
+                    Interviewed 4 members of the team.
+                </li>
+            </div>
+        </div>
+
         <p class="problemIntro">
             And found two primary root issues to address during the project...
         </p>
-        <div class="row" id="circleProblems">
+        <div class="row">
+            <img src="./assets/Screen Shot 2019-11-25 at 5.16.41 PM.png">
+        </div>
+
+
+        <div class="row" id="define-row">
+            <div class="col-sm" id="define-row-list">
+                <li data-aos="fade-left" data-aos-delay="100">
+                    Supporting the weight of the sharks they are examining
+                </li>
+                <li data-aos="fade-left" data-aos-delay="500">
+                    Providing a comfortable height alternative to avoid lack of circulation in a kneeling
+                    position
+                </li>
+            </div>
+            <div class="col-sm">
+                <h5 id="define-title">Define</h5>
+            </div>
+        </div>
+        <!-- <div class="row" id="circleProblems">
             <div class="col-sm">
                 <div class="circleList" data-aos="fade-right" data-aos-duration="3000">
                     <div class="circleContent1">
@@ -87,11 +148,86 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
 
         <hr>
         </hr>
+
+        <div id="research-title">
+            <h4 data-aos="flip-up" data-aos-delay="30000" data-aos-duration="30000">Iterating</h4>
+        </div>
+        <div class="row" id="brainstorming-row">
+            <div class="col-8">
+                <img src="./assets/brainstorming1.png">
+            </div>
+            <div class="col-sm">
+                <h5>Brainstorming</h5>
+                <p> We explored two primary HMW questions...</p>
+                <li data-aos="fade-left" data-aos-delay="100">How might we support the weight of the sharks to minimize
+                    the effort of the shark care takers caring for them?</li>
+                <li data-aos="fade-left" data-aos-delay="400">How might we provide comfort and ease for shark caretakers
+                    to while doing a long term procedure in a kneeling position. </li>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm" id="small-scale-prototyping">
+                <h5>Small-Scale Prototyping</h5>
+                <li data-aos="fade-left" data-aos-delay="100">We small scale prototyped over 5 of our brainstormed
+                    ideas.</li>
+                <li data-aos="fade-left" data-aos-delay="400">This process helped us identify weak points in multiple
+                    concepts.</li>
+            </div>
+            <div class="col-sm">
+                <img src="./assets/prototyping-small-scale-1.png">
+            </div>
+        </div>
+
+        <div class="row" id="large-scale-prototyping">
+            <div class="col-sm">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="./assets/prototyping-large-scale-1.png" style="width:100%">
+                    <img class="mySlides" src="./assets/prototyping-large-scale-2.png" style="width:100%;display:none">
+                    <img class="mySlides" src="./assets/prototyping-large-scale-3.png" style="width:100%;display:none">
+                    <img class="mySlides" src="./assets/prototyping-large-scale-4.png" style="width:100%;display:none">
+
+
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="./assets/prototyping-large-scale-1.png" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(1)">
+                        </div>
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="./assets/prototyping-large-scale-2.png" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(2)">
+                        </div>
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="./assets/prototyping-large-scale-3.png" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(3)">
+                        </div>
+                        <div class="w3-col s3">
+                            <img class="demo w3-opacity w3-hover-opacity-off"
+                                src="./assets//prototyping-large-scale-4.png" style="width:100%;cursor:pointer"
+                                onclick="currentDiv(4)">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <h5>Large-Scale Prototyping</h5>
+                <li data-aos="fade-left" data-aos-delay="100">We large scale prototyped a number of ideas across both
+                    the user-centered and shark-centered goals.</li>
+                <li data-aos="fade-left" data-aos-delay="400">By prototyping the tub, we were able to test our
+                    shark-weight-supporting aspect of our project with limitations.</li>
+            </div>
+        </div>
+        <hr>
         <div class="row">
             <div class="col-sm">
                 <div id="problemTitle">
@@ -154,15 +290,16 @@
             </p>
         </div>
         <a href="../index.html#contact-me">
-        <div  id="arrow">
-            <span style='font-size:50px;'>&#8680;</span>
-        </div>
-    </a>
+            <div id="arrow">
+                <span style='font-size:50px;'>&#8680;</span>
+            </div>
+        </a>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script src="../app.js"></script>
 </body>
 
 </html>

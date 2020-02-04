@@ -7,11 +7,7 @@ body {
     margin-left: 25%;
 }
 
-h2 {
-    font-size: 50px;
-    font-family: 'Raleway';
-    font-weight: bold;
-}
+
 #problemTitle {
     font-size: 25px;
 }
@@ -184,3 +180,98 @@ span {
       color: black;
       text-decoration: none;
   }
+
+/* Intro styling */
+
+#intro  {
+    padding-top: 25%;
+    padding-bottom: 20%;
+}
+
+#research-title {
+    padding-top: 30%;
+    padding-bottom: 50%;
+    text-align: center;
+}
+
+
+
+/* End of intro styling*/
+
+/* research styling */
+
+#user-observation-area {
+    padding-bottom: 20%;
+}
+
+#user-observation-list {
+    padding-top:2%;
+}
+
+#define-title {
+    padding-left: 25%;
+    padding-top: 5%
+}
+
+#define-row {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+#define-row-list {
+    padding-top:5%;
+}
+
+#define-list {
+    text-align: justify;
+}
+/* end of research stylying */
+
+
+/* Iterating Style */
+
+#brainstorming-row {
+    padding-bottom: 10%;
+}
+
+#prototyping-small-scale-1 {
+    padding-bottom: 3%;;
+}
+
+#small-scale-prototyping {
+    padding-top: 0%;
+}
+
+#large-scale-prototyping {
+    padding-top: 10%;
+}
+
+/* End of Iterating Styling */
+
+/* Setting font of headings */
+
+h1 {
+    font-family: 'Raleway'; ;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Raleway'; ;
+}
+
+h4 {
+    font-family: 'Raleway'; ;
+}
+
+h5 {
+    font-family: 'Raleway'; ;
+}
+
+h6 {
+    font-family: 'Raleway'; ;
+}
