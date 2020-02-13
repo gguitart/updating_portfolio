@@ -50,6 +50,18 @@
   }
    /* end of header styling */
 
+   /* intro styling */
+#intro {
+    padding-top: 23%;
+    padding-bottom: 5%;
+}
+
+#intro-row-1 {
+    padding-bottom: 5%
+}
+
+/* end of intro styling */
+
    /* Code for skill circle */
 
 #skillsTitle{

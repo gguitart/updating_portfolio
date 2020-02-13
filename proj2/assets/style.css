@@ -17,14 +17,14 @@ h4 {
     margin-left:23%;
     width: 60%;
 }
-h5 {
+/* h5 {
     padding:5%;
     font-size: 19px;
     font-family: 'Raleway';
     margin-left:10%;
     width: 90%;
     margin-top: 37%;
-}
+} */
 /* header styling */
 #header-name {
     font-size: 60px;
@@ -55,6 +55,37 @@ h5 {
     width:          1px; 
 }
   /* end of header styling */
+
+  /* title styling */
+
+  #problem-title {
+      padding-top: 40%;
+      padding-bottom: 40%;
+      text-align: center;
+  }
+
+
+  /* end of title styling */
+
+/* Intro styling */
+#intro { 
+    font-family: 'Raleway';
+    padding-top: 25%;
+    padding-bottom: 20%;
+
+}
+
+#intro-row-1 {
+     padding-bottom: 3%;
+}
+
+#research-title {
+    padding-top: 30%;
+    padding-bottom: 50%;
+    text-align: center;
+}
+
+/* end of intro styling */
 
   .content {
     padding: 16px;
@@ -92,6 +123,8 @@ h5 {
 #logo {
     width: 60%;
     margin-left: 17%;
+    padding-bottom: 0%;
+    /* padding-top: 40%; */
 }
 .list-next-steps{
     width: 80%;
