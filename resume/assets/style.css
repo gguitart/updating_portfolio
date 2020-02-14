@@ -35,7 +35,11 @@ ul.experiences li {
 
 ul.experiences li:after {
     /* bullets */
-    content: url('http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png');
+    content: 
+    url('https://i.ya-webdesign.com/images/small-black-dot-png-4.png')
+    ;
+
+    /* http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png */
     position: absolute;
     left: -26px; /*adjust manually*/
     top: 0px;
