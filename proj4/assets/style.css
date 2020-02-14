@@ -52,7 +52,7 @@
 
    /* intro styling */
 #intro {
-    padding-top: 23%;
+    padding-top: 18%;
     padding-bottom: 5%;
 }
 
@@ -61,6 +61,12 @@
 }
 
 /* end of intro styling */
+
+#inspiration-title {
+    padding-top: 40%;
+    padding-bottom: 40%;
+    text-align: center;
+}
 
    /* Code for skill circle */
 
